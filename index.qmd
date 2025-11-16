@@ -33,8 +33,3 @@ The primary goals of the ICA Report Project are to:
 We believe this project will significantly contribute to strengthening institutional capacities and fostering evidence-based governance.
 
 ---
-
-
-
-![](img/report_generation.gif){.thumbnail}
-
