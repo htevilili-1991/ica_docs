@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Navbar title styling */
+.navbar-title {
+  font-weight: bold;
+  /* Add a subtle text shadow for depth */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar link hover effect */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--bs-primary) !important; /* Use primary color from theme */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Image fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+img {
+  animation: fadeIn 1s ease-in-out;
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto;
+  border-radius: 8px; /* Slightly rounded corners for images */
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover */
+}
+
+img:hover {
+  transform: scale(1.02); /* Slightly enlarge image on hover */
+}
+
+/* General body styling for better readability with dark theme */
+body {
+  line-height: 1.6;
+  font-family: 'Source Sans Pro', sans-serif; /* Using a font from your project */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bs-heading-color); /* Use theme's heading color */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Adjustments for code blocks in dark theme */
+pre, code {
+  background-color: #2d2d2d; /* Darker background for code */
+  color: #f8f8f2; /* Lighter text for code */
+  border-radius: 5px;
+  padding: 0.75em;
+  overflow-x: auto; /* Enable horizontal scrolling for long lines */
+}
+
+/* Styling for the thumbnail class used on images in index.qmd */
+.thumbnail {
+  /*border: 1px solid #444; /* A subtle border */
+  padding: 5px;
+  /*background-color: #333; /* Background for the thumbnail */
+}

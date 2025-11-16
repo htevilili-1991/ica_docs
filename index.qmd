@@ -1,0 +1,40 @@
+---
+title: "ICA Report Project"
+---
+
+## Welcome to the ICA Report Project Website!
+
+::: {layout-ncol=2}
+![](img/data_analysis.gif){.thumbnail}
+
+
+This website serves as a comprehensive guide to the **Institutional Capacity Assessment (ICA) Report Project**. Our aim is to provide clear, data-driven insights into the capacities of various government ministries and departments. This project leverages the power of modern data science tools to automate report generation, ensuring consistency, efficiency, and reproducibility.
+
+:::
+
+### What You'll Find Here:
+
+*   **Home:** An overview of the project's goals and structure.
+*   **Methodology:** A detailed explanation of how data is collected, analyzed, and transformed into actionable insights.
+*   **Key Files:** A guide to the most important files and their roles within the project's codebase.
+*   **About the Tech:** Introductions to the core technologies powering this project: R, Quarto, and LaTeX, explained in an accessible manner.
+
+We encourage you to explore these sections to gain a deeper understanding of the project's foundations and the robust processes behind the ICA Reports.
+
+### Project Goals:
+
+The primary goals of the ICA Report Project are to:
+
+1.  **Automate Report Generation:** Streamline the process of creating detailed capacity assessment reports for multiple entities.
+2.  **Enhance Data-Driven Decision Making:** Provide ministries and departments with reliable data and visualizations to inform strategic planning and capacity development initiatives.
+3.  **Ensure Reproducibility and Consistency:** Utilize programmatic approaches to guarantee that reports are generated consistently and can be easily reproduced or updated.
+4.  **Improve Accessibility:** Make complex data and methodologies understandable to a broader audience through clear explanations and interactive formats.
+
+We believe this project will significantly contribute to strengthening institutional capacities and fostering evidence-based governance.
+
+---
+
+
+
+![](img/report_generation.gif){.thumbnail}
+

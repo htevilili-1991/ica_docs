@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "ICA Report Project"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: methodology.qmd
+        text: Methodology
+      - href: key_files.qmd
+        text: Key Files
+      - text: About the Tech
+        menu:
+          - href: about_r.qmd
+            text: What is R?
+          - href: about_quarto.qmd
+            text: What is Quarto?
+          - href: about_latex.qmd
+            text: What is LaTeX?
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://code.com
+          - text: Report a Bug
+            href:  https://bugs.com
+
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
