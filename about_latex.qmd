@@ -4,7 +4,9 @@ title: "What is LaTeX?"
 
 ## What is LaTeX?
 
-**LaTeX** (pronounced "Lay-tech" or "Lah-tech") is not a word processor in the traditional sense (like Microsoft Word). Instead, it is a **document preparation system** and a high-quality **typesetting system**. It is widely used in academia and professional circles for the communication and publication of scientific documents, technical reports, books, and presentations. LaTeX is built on top of TeX, a typesetting program created by Donald Knuth.
+![](/img/LaTeX_logo.svg){fig-align="center" width="200"}
+
+**LaTeX** (pronounced “Lay-tech” or “Lah-tech”) is not a word processor in the traditional sense (like Microsoft Word). Instead, it is a **document preparation system** and a high-quality **typesetting system**. It is widely used in academia and professional circles for the communication and publication of scientific documents, technical reports, books, and presentations. LaTeX is built on top of TeX, a typesetting program created by Donald Knuth.
 
 ### Key Characteristics and Advantages of LaTeX:
 

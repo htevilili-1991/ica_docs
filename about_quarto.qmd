@@ -4,6 +4,8 @@ title: "What is Quarto?"
 
 ## What is Quarto?
 
+![](/img/Quarto_logo.png){fig-align="center" width="200"}
+
 **Quarto** is an open-source scientific and technical publishing system that allows you to create dynamic content with various programming languages, including Python, R, Julia, and Observable. It's built on Pandoc, a universal document converter, and is designed for creating high-quality articles, reports, presentations, websites, books, and more from a single source.
 
 ### Key Concepts and Features of Quarto:
@@ -31,5 +33,3 @@ In the ICA Report Project, Quarto is the **central publishing platform** that br
 *   **Dynamic Content:** All the statistical results, tables, and visualizations produced by R are dynamically inserted into the reports by Quarto during the rendering process. This eliminates manual copy-pasting and reduces errors.
 *   **Multi-Format Output:** Quarto allows the project to generate reports in both HTML (for easy web viewing and sharing) and PDF (for formal, print-ready documents) from the same source, catering to different stakeholder needs.
 *   **Website Creation:** This very website is built using Quarto, demonstrating its capability to create structured, navigable online documentation for the project.
-
-By using Quarto, the ICA Report Project achieves a highly efficient, flexible, and reproducible workflow for generating and disseminating its critical reports and documentation.

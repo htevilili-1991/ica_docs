@@ -4,6 +4,8 @@ title: "What is R?"
 
 ## What is R?
 
+![](/img/Rlogo.png){fig-align="center" width="200"}
+
 **R** is a powerful, open-source programming language and software environment specifically designed for **statistical computing and graphics**. Developed by statisticians Ross Ihaka and Robert Gentleman, R has become an indispensable tool for data scientists, researchers, and analysts across various disciplines. It is supported by the R Foundation for Statistical Computing.
 
 ### Key Characteristics and Features of R:
@@ -15,7 +17,49 @@ title: "What is R?"
     *   **Classification and Clustering:** For grouping data points and predicting categories.
     *   **Machine Learning:** A vast ecosystem of packages for various machine learning algorithms.
 
-2.  **Exceptional Graphics and Visualization:** R is renowned for its ability to produce high-quality, customizable static and interactive graphics. Packages like `ggplot2` allow users to create complex and aesthetically pleasing data visualizations that are crucial for communicating insights.
+::: {.columns}
+
+::: {.column width="40%"}
+2.  **Exceptional Graphics and Visualization:** R is renowned for its ability to produce high-quality, customizable static and interactive graphics. Packages like `ggplot2` or `highcharter` allow users to create complex and aesthetically pleasing data visualizations that are crucial for communicating insights.
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(highcharter)
+library(dplyr)
+
+data <- data.frame(
+  category = c("Static", "Interactive", "Customizable", "High-Quality"),
+  value = c(10, 15, 12, 18)
+)
+
+hchart(data, "column", hcaes(x = category, y = value)) %>%
+  hc_title(text = "Visualization Features in R") %>%
+  hc_xAxis(title = list(text = "Feature")) %>%
+  hc_yAxis(title = list(text = "Score")) %>%
+  hc_add_theme(hc_theme_flat()) %>%
+  hc_exporting(
+    enabled = TRUE,
+    buttons = list(
+      contextButton = list(
+        menuItems = list(
+          "viewFullscreen",
+          "separator",
+          "downloadCSV",
+          "downloadXLS",
+          "separator",
+          "viewData"
+        )
+      )
+    )
+  )
+```
+:::
+
+:::
 
 3.  **Open Source and Free:** R is freely available under the GNU General Public License. This means anyone can use, distribute, and modify the software without licensing costs, fostering a large and active global community.
 
@@ -31,6 +75,6 @@ In the context of the Institutional Capacity Assessment (ICA) Report Project, R 
 *   **Statistical Analysis:** All statistical computations, such as calculating capacity indicators, response rates, and comparative metrics, are performed using R.
 *   **Dynamic Content Generation:** R code chunks are embedded directly within Quarto documents. When these documents are rendered, R executes the code, and its outputs (e.g., calculated values, statistical summaries, data frames) are seamlessly integrated into the final reports.
 *   **High-Quality Visualizations:** R is used to generate all the charts, graphs, and other visual elements that make the ICA reports informative and engaging. These visualizations are dynamically created based on the latest data.
-*   **Automation and Orchestration:** R scripts (like `render_department_report.R`) are central to automating the report generation workflow, iterating through departments, processing their data, and rendering individual reports.
+*   **Automation and Orchestration:** R script `render_department_report.R` is central to automating the report generation workflow, iterating through departments, processing their data, and rendering individual reports.
 
-By leveraging R, the ICA Report Project ensures that its analyses are robust, reproducible, and capable of generating dynamic, data-driven reports efficiently.
+Using R to automate the ICA Report writting ensures that its analyses are robust, reproducible, and capable of generating dynamic, data-driven reports efficiently.

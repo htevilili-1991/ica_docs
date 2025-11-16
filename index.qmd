@@ -31,5 +31,3 @@ The primary goals of the ICA Report Project are to:
 4.  **Improve Accessibility:** Make complex data and methodologies understandable to a broader audience through clear explanations and interactive formats.
 
 We believe this project will significantly contribute to strengthening institutional capacities and fostering evidence-based governance.
-
----

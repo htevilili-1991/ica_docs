@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 /* styles.css */
 
 /* Navbar title styling */
@@ -39,7 +41,7 @@ img:hover {
 /* General body styling for better readability with dark theme */
 body {
   line-height: 1.6;
-  font-family: 'Source Sans Pro', sans-serif; /* Using a font from your project */
+  font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,4 +68,18 @@ pre, code {
   /*border: 1px solid #444; /* A subtle border */
   padding: 5px;
   /*background-color: #333; /* Background for the thumbnail */
+}
+
+/* Custom colors for titles */
+h1, h2, h3 {
+  color: #2c3e50; /* Dark blue for titles */
+}
+
+/* Custom light background for navbar */
+.navbar {
+  background-color: #e9ecef !important; /* Slightly darker light grey */
+}
+
+p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
+    background-color: #282727;
 }
